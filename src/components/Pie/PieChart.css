@@ -1,0 +1,57 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+  width: 95vw;
+  border: 1px solid black;
+  padding: 1rem;
+  border-radius: 10px;
+  filter: drop-shadow(0 0 0.75rem blue  );
+  background: rgb(33, 33, 33);
+}
+
+.top, .bottom{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  margin: .5rem;
+}
+
+.top {
+  height: 65%;
+}
+
+.bottom {
+  height: 35%;
+  }
+
+.top-left,
+.top-right {
+  height: 100%;
+  width: 50%;
+  margin: .5rem;
+  
+}
+
+.bot-left,
+.bot-mid,
+.bot-right {
+  height: 100%;
+  width: 33%;
+  margin: .5rem;
+}
+.bot-mid {
+  width: 34%;
+}
+
+.pieChart {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  border: 1px solid rgb(0, 195, 255);
+  border-radius: 10px;
+  background: rgb(1, 24, 74);
+}

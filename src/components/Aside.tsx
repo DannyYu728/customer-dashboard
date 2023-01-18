@@ -3,7 +3,7 @@ import * as React from 'react';
 export interface IAppProps {
 }
 
-export function App (props: IAppProps) {
+export default function Aside (props: IAppProps) {
   return (
     <div>
       
